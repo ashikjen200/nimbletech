@@ -1,7 +1,7 @@
 
 # nat gw
 resource "aws_eip" "nat" {
-  vpc      = true
+  vpc      = false
 }
 resource "aws_nat_gateway" "nat-gw" {
   allocation_id = "${aws_eip.nat.id}"
