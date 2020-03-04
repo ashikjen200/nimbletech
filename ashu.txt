@@ -1,6 +1,7 @@
 
 # nat gw
 ##Branching concept
+#nimbletech
 resource "aws_eip" "nat" {
   vpc      = false
 }
