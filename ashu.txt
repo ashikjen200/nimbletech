@@ -1,5 +1,6 @@
 
 # nat gw
+##Branching concept
 resource "aws_eip" "nat" {
   vpc      = false
 }
